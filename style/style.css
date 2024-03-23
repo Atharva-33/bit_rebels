@@ -1,0 +1,64 @@
+/* input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    } */
+
+    /* input [type=submit] {
+    background-color:#84AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 50px;
+    } */
+    
+    input [type=submit]:hover {
+    background-color: #a45849;
+    }
+   
+    /* .container{
+    border-radius: 5px;
+    background-color: #f2f212;
+    padding: 20px;
+    } */
+
+    input[type=message], input[type=email], input[type=text], input[type=file], textarea, input [type=submit], select {
+        width: 50%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        margin-left: 600px;
+        /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+        
+      }
+
+      .st-emotion-cache-1kyxreq{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+    
+      .st-emotion-cache-10trblm {
+        position: relative;
+        flex: 1 1 0%;
+        margin-left: calc(43rem);
+    }
+
+    [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        margin-left: 50rem;
+        width: 80px;
+        height: 40px;
+        border-radius: 45px;
+    }
+    
